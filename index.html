@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <title>Demo Site</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-content home container">
+        <div class="logo-image">
+          <a href="/">
+            <img src="assets/logo.png" alt="logo" /><span
+              >TEGYOUNG INT'L TRADING</span
+            ></a
+          >
+        </div>
+        <div class="header-menu">
+          <ul class="header-menu-list">
+            <li class="header-menu-item">Home</li>
+            <li class="header-menu-item dropdown">
+              <div class="dropbtn">Products</div>
+              <div class="dropdown-content">
+                <a href="/product/15ton-recirculating-grain-dryer.html"
+                  >15TON RECIRCULATING GRAIN DRYER</a
+                >
+                <a href="/product/rice-huller.html">RICE HULLER</a>
+                <a href="/product/husk-blower.html">HUSK BLOWER</a>
+                <a href="/product/paddy-separator.html">PADDY SEPARATOR</a>
+                <a href="/product/de-stoner.html">DE-STONER</a>
+                <a href="/product/vertical-whitener.html">VERTICAL WHITENER</a>
+                <a href="/product/rotary-sifter.html">ROTARY SIFTER</a>
+                <a href="/product/mist-polisher.html">MIST POLISHER</a>
+                <a href="/product/color-sorter.html">COLOR SORTER</a>
+                <a href="/product/mobile-rice-mill.html"
+                  >MOBILE RICE MILL(5 IN 1)</a
+                >
+              </div>
+            </li>
+            <li class="header-menu-item"><a href="/about.html">About Us</a></li>
+          </ul>
+        </div>
+        <div id="clickWrapper" onclick="openMenu()"><div class="menu" /></div>
+      </div>
+    </header>
+    <div id="mobileMenu">
+      <a href="/"> <li class="header-menu-item">Home</li></a>
+      <li class="header-menu-item products-dropdown">Products</li>
+      <div class="mobile-dropdown-content">
+        <a href="/product/15ton-recirculating-grain-dryer.html"
+          >15TON RECIRCULATING GRAIN DRYER</a
+        >
+        <a href="/product/rice-huller.html">RICE HULLER</a>
+        <a href="/product/husk-blower.html">HUSK BLOWER</a>
+        <a href="/product/paddy-separator.html">PADDY SEPARATOR</a>
+        <a href="/product/de-stoner.html">DE-STONER</a>
+        <a href="/product/vertical-whitener.html">VERTICAL WHITENER</a>
+        <a href="/product/rotary-sifter.html">ROTARY SIFTER</a>
+        <a href="/product/mist-polisher.html">MIST POLISHER</a>
+        <a href="/product/color-sorter.html">COLOR SORTER</a>
+        <a href="/product/mobile-rice-mill.html">MOBILE RICE MILL(5 IN 1)</a>
+      </div>
+      <a href="/about.html"><li class="header-menu-item">About Us</li></a>
+    </div>
+
+    <section class="home-banner-wrapper">
+      <div class="home-banner-content">
+        <div class="banner-carousel">
+          <div class="banner-photo">
+            <img src="assets/pexels-tom-fisk-1595108.jpg" alt="" />
+          </div>
+          <div class="banner-photo">
+            <img src="assets/pexels-tim-mossholder-974314.jpg" alt="" />
+          </div>
+          <div class="banner-photo">
+            <img src="assets/pexels-quang-nguyen-vinh-2172885.jpg" alt="" />
+          </div>
+        </div>
+        <div class="home-banner-text">
+          <h1>Enhancing Farming, Empowering You</h1>
+          <p>
+            Elevating farming standards worldwide, one field at a time, with
+            quality machinery and unwavering commitment.
+          </p>
+          <button class="home-banner-button">
+            <a href="#features">Explore</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="features-wrapper container">
+        <div class="feature-item">
+          <img src="assets\coca-leaves.png" alt="" />
+          <span>Sustainable</span>
+        </div>
+        <div class="feature-item">
+          <img src="assets\money.png" alt="" /> <span>Competitive Pricing</span>
+        </div>
+        <div class="feature-item">
+          <img src="assets\recycle.png" alt="" />
+          <span>Adaptable</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="homepage-about">
+      <div class="homepage-about-wrapper container">
+        <div class="homepage-about-left">
+          <div class="homepage-about-photo">
+            <img src="assets\outstory_backdrop.jpg" alt="" />
+          </div>
+          <div class="homepage-about-photo">
+            <img src="assets\pexels-los-muertos-crew-10041309.jpg" alt="" />
+          </div>
+        </div>
+        <div class="homepage-about-right">
+          <h3>Who we are?</h3>
+          <p>
+            TEGYOUNG INT‘L TRADING, is a trusted importer and distributor of
+            agricultural machineries. We take pride in distributing top-tier
+            agricultural machineries and providing outstanding services to our
+            customers to meet their needs and satisfaction. At TEGYOUNG, we are
+            not just traders; we are partners in progress-where your success is
+            our goal.
+          </p>
+          <button class="homepage-about-button">
+            <a href="/about.html">Learn More</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="productSection" class="homepage-product-wrapper">
+      <div class="homepage-product-content container">
+        <div class="homepage-product-header">
+          <div class="homepage-product-header-inner">
+            <h3>What we offer</h3>
+            <p>
+              We offer cutting-edge farm equipment with the latest technological
+              advancements, ensuring you stay ahead in the ever-evolving
+              agricultural landscape. Our commitment to innovation guarantees
+              efficient, high-performance machinery.
+            </p>
+          </div>
+        </div>
+        <div class="homepage-product-tab">
+          <div class="tab-item active" data-category="all">All Products</div>
+          <div class="tab-item" data-category="drying-machineries">
+            Drying Machineries
+          </div>
+          <div class="tab-item" data-category="rice-mill-machineries">
+            Rice Mill Machineries
+          </div>
+          <div class="tab-item" data-category="compact-type-rice-mill">
+            Compact Type Rice Mill
+          </div>
+        </div>
+        <div class="homepage-product-main-content">
+          <div class="homepage-product-item" data-category="drying-machineries">
+            <a href="/product/15ton-recirculating-grain-dryer.html">
+              <div class="homepage-product-photo">
+                <img src="assets/15Ton recirculating grain dryer.png" alt="" />
+              </div>
+              <h4>15TON RECIRCULATING GRAIN DRYER</h4>
+            </a>
+          </div>
+          <div class="homepage-product-item" data-category="drying-machineries">
+            <a href="/product/bulk-dryer.html">
+              <div class="homepage-product-photo">
+                <img src="assets/products-image/bulk-dryer1.png" alt="" />
+              </div>
+              <h4>BULK DRYER</h4>
+            </a>
+          </div>
+          <div
+            class="homepage-product-item"
+            data-category="rice-mill-machineries"
+          >
+            <a href="/product/rice-huller.html">
+              <div class="homepage-product-photo">
+                <img src="assets/Rice Huller.png" alt="" />
+              </div>
+              <h4>RICE HULLER</h4>
+            </a>
+          </div>
+          <div
+            class="homepage-product-item"
+            data-category="rice-mill-machineries"
+          >
+            <a href="/product/husk-blower.html">
+              <div class="homepage-product-photo">
+                <img src="assets/Husk Blower.png" alt="" />
+              </div>
+              <h4>HUSK BLOWER</h4>
+            </a>
+          </div>
+          <div
+            class="homepage-product-item"
+            data-category="rice-mill-machineries"
+          >
+            <a href="/product/paddy-separator.html">
+              <div class="homepage-product-photo">
+                <img src="assets/Paddy Separator.png" alt="" />
+              </div>
+              <h4>PADDY SEPARATOR</h4>
+            </a>
+          </div>
+          <div
+            class="homepage-product-item"
+            data-category="rice-mill-machineries"
+          >
+            <a href="/product/de-stoner.html">
+              <div class="homepage-product-photo">
+                <img src="assets/De-Stoner.png" alt="" />
+              </div>
+              <h4>DE-STONER</h4>
+            </a>
+          </div>
+          <div
+            class="homepage-product-item"
+            data-category="rice-mill-machineries"
+          >
+            <a href="/product/vertical-whitener.html">
+              <div class="homepage-product-photo">
+                <img src="assets/Vertical Whitener.png" alt="" />
+              </div>
+              <h4>VERTICAL WHITENER</h4>
+            </a>
+          </div>
+          <div
+            class="homepage-product-item"
+            data-category="rice-mill-machineries"
+          >
+            <a href="/product/rotary-sifter.html">
+              <div class="homepage-product-photo">
+                <img src="assets/Rotary Sifter.png" alt="" />
+              </div>
+              <h4>ROTARY SIFTER</h4>
+            </a>
+          </div>
+          <div
+            class="homepage-product-item"
+            data-category="rice-mill-machineries"
+          >
+            <a href="/product/mist-polisher.html">
+              <div class="homepage-product-photo">
+                <img src="assets/Mist Polisher.png" alt="" />
+              </div>
+              <h4>MIST POLISHER</h4>
+            </a>
+          </div>
+          <div
+            class="homepage-product-item"
+            data-category="rice-mill-machineries"
+          >
+            <a href="/product/color-sorter.html">
+              <div class="homepage-product-photo">
+                <img src="assets/Color Sorter.png" alt="" />
+              </div>
+              <h4>COLOR SORTER</h4>
+            </a>
+          </div>
+          <div
+            class="homepage-product-item"
+            data-category="compact-type-rice-mill"
+          >
+            <a href="/product/mobile-rice-mill.html">
+              <div class="homepage-product-photo">
+                <img src="assets/Mobile Rice Mill.png" alt="" />
+              </div>
+              <h4>MOBILE RICE MILL(5 IN 1)</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-wrapper">
+      <div class="contact-wrapper-content container">
+        <div class="contact-header">
+          <h5>Ready to do business?</h5>
+          <h3>Contact Us</h3>
+        </div>
+        <div class="contact-item-wrapper">
+          <div class="contact-item center">
+            <div class="contact-item-photo center">
+              <img src="assets\store.png" alt="" />
+            </div>
+            <h4>Store Hours</h4>
+            <h5>XXX to XXXXX</h5>
+            <h5>Xam - Xpm</h5>
+          </div>
+          <div class="contact-item center">
+            <div class="contact-item-photo center">
+              <img src="assets\telephone-call.png" alt="" />
+            </div>
+            <h4>By Phone</h4>
+            <h5>02-8652-1325</h5>
+            <h5>0927-6684075</h5>
+            <h5>0910-1761194</h5>
+          </div>
+          <div class="contact-item center">
+            <div class="contact-item-photo center">
+              <img src="assets\email.png" alt="" />
+            </div>
+            <h4>By Email</h4>
+            <h5>
+              <a href="mailto:tegyoung.intl@gmail.com"
+                >tegyoung.intl@gmail.com</a
+              >
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content container center">
+        <div class="logo-image">
+          <a href="/">
+            <img src="assets/logo.png" alt="logo" /><span
+              >TEGYOUNG INT'L TRADING</span
+            ></a
+          >
+        </div>
+        <div class="footer-menu">
+          <ul class="footer-menu-list">
+            <li class="footer-menu-item"><a href="/">Home</a></li>
+            <li class="footer-menu-item">
+              <a href="/#productSection">Products</a>
+            </li>
+            <li class="footer-menu-item"><a href="/about.html">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
